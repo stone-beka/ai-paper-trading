@@ -1,13 +1,27 @@
 {
-  "name": "ai-paper-trading",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "description": "AI 模拟炒股：真实行情数据 + 本地撮合 + 网页看板",
-  "scripts": {
-    "server": "node src/server.js",
-    "loop": "node src/loop.js",
-    "init": "node src/init.js",
-    "tick": "node src/tick.js"
-  }
+    "name":  "ai-paper-trading",
+    "version":  "1.0.0",
+    "private":  true,
+    "type":  "module",
+    "description":  "AI 模拟炒股：真实行情数据 + 本地撮合 + 网页看板",
+    "scripts":  {
+                    "server":  "node src/server.js",
+                    "loop":  "node src/loop.js",
+                    "init":  "node src/init.js",
+                    "tick":  "node src/tick.js"
+                },
+    "license":  "MIT",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/stone-beka/ai-paper-trading.git"
+                   },
+    "engines":  {
+                    "node":  "\u003e=20"
+                },
+    "keywords":  [
+                     "trading",
+                     "simulation",
+                     "dashboard",
+                     "llm"
+                 ]
 }
