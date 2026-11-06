@@ -9,7 +9,7 @@
 ## 快速上手
 
 ```powershell
-cd C:\Users\23077\Desktop\work_place\ai_money
+cd ai-paper-trading
 
 node src/init.js     # 初始化账户（全市场扫描 + 建仓），只在第一次或重置时用
 node src/server.js   # 网页看板（后台常驻）
